@@ -1,0 +1,439 @@
+{
+  "collection": {
+    "info": {
+      "_postman_id": "13a70e8c-71c2-43ad-95d6-b849caabf182",
+      "name": "Agentview",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+      "updatedAt": "2024-11-11T10:35:13.000Z",
+      "createdAt": "2024-10-29T19:31:34.000Z",
+      "lastUpdatedBy": "35360195",
+      "uid": "35360195-13a70e8c-71c2-43ad-95d6-b849caabf182"
+    },
+    "item": [
+      {
+        "name": "TimeshareAccounts",
+        "id": "042eb5c7-9b51-4e43-9fc3-02683b062d7e",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "auth": {
+            "type": "bearer",
+            "bearer": [
+              {
+                "key": "token",
+                "value": "{{access_token}}",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [
+            {
+              "key": "X-Env",
+              "value": "qa",
+              "type": "text"
+            }
+          ],
+          "url": {
+            "raw": "https://apirtf.orangelake.com/hicv-agentview-exp/timeshareAccounts/6673438",
+            "protocol": "https",
+            "host": [
+              "apirtf",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "hicv-agentview-exp",
+              "timeshareAccounts",
+              "6673438"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-042eb5c7-9b51-4e43-9fc3-02683b062d7e"
+      },
+      {
+        "name": "TimeshareAccounts-Finances",
+        "id": "f16a63aa-17bc-4124-ac99-36193e33b36d",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "auth": {
+            "type": "bearer",
+            "bearer": [
+              {
+                "key": "token",
+                "value": "{{access_token}}",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [
+            {
+              "key": "X-Env",
+              "value": "qa",
+              "type": "text"
+            }
+          ],
+          "url": {
+            "raw": "https://apirtf.orangelake.com/hicv-agentview-exp/timeshareAccounts/6673438/finances",
+            "protocol": "https",
+            "host": [
+              "apirtf",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "hicv-agentview-exp",
+              "timeshareAccounts",
+              "6673438",
+              "finances"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-f16a63aa-17bc-4124-ac99-36193e33b36d"
+      },
+      {
+        "name": "Contracts",
+        "id": "704dac91-ae0a-48b7-b8ba-33280f6804a0",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "auth": {
+            "type": "bearer",
+            "bearer": [
+              {
+                "key": "token",
+                "value": "{{access_token}}",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [
+            {
+              "key": "X-Env",
+              "value": "qa",
+              "type": "text"
+            }
+          ],
+          "url": {
+            "raw": "https://apirtf.orangelake.com/hicv-agentview-exp/contracts/6673438",
+            "protocol": "https",
+            "host": [
+              "apirtf",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "hicv-agentview-exp",
+              "contracts",
+              "6673438"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-704dac91-ae0a-48b7-b8ba-33280f6804a0"
+      },
+      {
+        "name": "Customers",
+        "id": "3aba4e4c-50e2-4104-bce3-5ff1d2294204",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "auth": {
+            "type": "bearer",
+            "bearer": [
+              {
+                "key": "token",
+                "value": "{{access_token}}",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [
+            {
+              "key": "X-Env",
+              "value": "qa",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "https://apirtf.orangelake.com/hicv-agentview-exp/accounts/6673438/customers",
+            "protocol": "https",
+            "host": [
+              "apirtf",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "hicv-agentview-exp",
+              "accounts",
+              "6673438",
+              "customers"
+            ],
+            "query": [
+              {
+                "key": "",
+                "value": "",
+                "type": "text",
+                "disabled": true
+              }
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-3aba4e4c-50e2-4104-bce3-5ff1d2294204"
+      },
+      {
+        "name": "CustomersCreateMDM",
+        "id": "b2f6daf9-c4e9-44ac-af2c-27f137fd4ecb",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "auth": {
+            "type": "bearer",
+            "bearer": [
+              {
+                "key": "token",
+                "value": "{{access_token}}",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "POST",
+          "header": [
+            {
+              "key": "X-Env",
+              "value": "qa",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\r\n  \"MDMId\": \"M-455576\",\r\n  \"salesforceContactId\": \"0045I00000fsrOGQAA\"\r\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "https://apirtf.orangelake.com/hicv-agentview-exp/accounts/6673438/customers",
+            "protocol": "https",
+            "host": [
+              "apirtf",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "hicv-agentview-exp",
+              "accounts",
+              "6673438",
+              "customers"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-b2f6daf9-c4e9-44ac-af2c-27f137fd4ecb"
+      },
+      {
+        "name": "ReservationBooking",
+        "id": "197854fc-dd55-4ac7-86c4-2dcfb0b0acbc",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "auth": {
+            "type": "bearer",
+            "bearer": [
+              {
+                "key": "token",
+                "value": "{{access_token}}",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "POST",
+          "header": [
+            {
+              "key": "X-Env",
+              "value": "qa",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\r\n  \"siteId\": 1,\r\n  \"ownerId\": 923163,\r\n  \"reservationType\": \"Owner\",\r\n  \"reservationSubType\": \"Trust\",\r\n  \"startDate\": \"2007-01-07T00:00:00.000Z\",\r\n  \"endDate\": \"2007-01-11T00:00:00.000Z\",\r\n  \"numberOfChildren\": 1,\r\n  \"numberOfAdults\": 1,\r\n  \"isAda\": false,\r\n  \"isGuestOf\": false,\r\n  \"reservationSource\": \"Guest of Owner\",\r\n  \"travellerInfo\": {\r\n    \"email\": \"test@test.com\",\r\n    \"phone\": \"+00232332323\",\r\n    \"country\": \"US\",\r\n    \"postalCode\": \"132123\",\r\n    \"state\": \"FL\",\r\n    \"city\": \"New York\",\r\n    \"streetAddress\": \"1\",\r\n    \"firstName\": \"Zeeshan\",\r\n    \"lastName\": \"Rauf\",\r\n    \"company\": \"HolidayInnClub\"\r\n  },\r\n  \"units\": [\r\n    {\r\n      \"contractId\": \"6673438\",\r\n      \"roomType\": \"2BD-RI\",\r\n      \"usage\": {\r\n        \"totalDaysUsed\": 7,\r\n        \"consumedUsageDetails\": [\r\n          {\r\n            \"usageYearId\": \"8535030\",\r\n            \"daysUsed\": 6,\r\n            \"usageYear\": \"2000\",\r\n            \"soldInventoryId\": 6673438,\r\n            \"contractId\": \"6673438\",\r\n            \"consumeType\": \"borrow\"\r\n          }\r\n        ]\r\n      },\r\n      \"roomNumber\": \"81630A\"\r\n    }\r\n  ],\r\n  \"specialRequests\": [\r\n    {\r\n      \"id\": 75,\r\n      \"note\": \"High Chair Request. Number Requested: 1\"\r\n    }\r\n  ],\r\n  \"additionalGuests\": [\r\n    {\r\n      \"firstName\": \"Rees\",\r\n      \"lastName\": \"Harold\"\r\n    }\r\n  ],\r\n  \"payment\": {\r\n    \"card\": {\r\n      \"rsaCardCipherText\": \"\",\r\n      \"rsaCardCipherId\": \"\",\r\n      \"expirationMonth\": 12,\r\n      \"expirationYear\": 2022,\r\n      \"creditCardType\": \"VISA\",\r\n      \"firstFourDigits\": 3700\r\n    },\r\n    \"billingAddress\": {\r\n      \"addressLines\": [\r\n        \"3 Ravinia Drive\"\r\n      ],\r\n      \"cityName\": \"Atlanta\",\r\n      \"stateProvince\": \"GA\",\r\n      \"postalCode\": \"30346\",\r\n      \"countryName\": \"UNITED STATES\",\r\n      \"countryCode\": \"US\"\r\n    }\r\n  },\r\n  \"pricing\": {\r\n    \"totalTax\": 0,\r\n    \"totalFee\": 64,\r\n    \"price\": 724,\r\n    \"totalBeforeTaxAndFee\": 660,\r\n    \"ratesAndFees\": [\r\n      {\r\n        \"totalTax\": 0,\r\n        \"amountBeforeTax\": 4,\r\n        \"amount\": 4,\r\n        \"description\": \"Splash Time Nightly Rate\",\r\n        \"pricingFrequency\": \"perNight\",\r\n        \"type\": \"rate\",\r\n        \"finTrans\": {\r\n          \"recordLocation\": \"Folio\",\r\n          \"finTransCode\": \"Room\"\r\n        },\r\n        \"finTransCodesByCC\": [\r\n          {\r\n            \"cardType\": \"VISA\",\r\n            \"finTransCodeID\": \"42\",\r\n            \"transactionCode\": \"GA VISA\"\r\n          },\r\n          {\r\n            \"cardType\": \"MASTER\",\r\n            \"finTransCodeID\": \"48\",\r\n            \"transactionCode\": \"GA MASTER CARD\"\r\n          },\r\n          {\r\n            \"cardType\": \"AMEX\",\r\n            \"finTransCodeID\": \"43\",\r\n            \"transactionCode\": \"GA AMEX\"\r\n          }\r\n        ]\r\n      }\r\n    ]\r\n  }\r\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "https://apirtf.orangelake.com/hicv-agentview-exp/accounts/6673438/bookings",
+            "protocol": "https",
+            "host": [
+              "apirtf",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "hicv-agentview-exp",
+              "accounts",
+              "6673438",
+              "bookings"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-197854fc-dd55-4ac7-86c4-2dcfb0b0acbc"
+      },
+      {
+        "name": "RoomAvailabilities",
+        "id": "20e74162-c607-4580-8cab-43fdcb56e7d2",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "auth": {
+            "type": "bearer",
+            "bearer": [
+              {
+                "key": "token",
+                "value": "{{access_token}}",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "POST",
+          "header": [
+            {
+              "key": "X-Env",
+              "value": "qa",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\r\n  \"accountNumber\": 6673438,\r\n  \"mdmId\": \"M-455576\",\r\n  \"sites\": [\r\n    27\r\n  ],\r\n  \"reservationType\": \"Owner\",\r\n  \"reservationSubType\": \"Owner Use\",\r\n  \"searchRange\": {\r\n    \"startDate\": \"2024-12-27\",\r\n    \"endDate\": \"2024-12-31\"\r\n  },\r\n    \"lengthOfStay\": 7,\r\n  \"numberOfGuests\": 4,\r\n  \"isADA\": false\r\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "https://apirtf.orangelake.com/hicv-agentview-exp/reservations/generalAvailabilities",
+            "protocol": "https",
+            "host": [
+              "apirtf",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "hicv-agentview-exp",
+              "reservations",
+              "generalAvailabilities"
+            ],
+            "query": [
+              {
+                "key": "",
+                "value": "",
+                "type": "text",
+                "disabled": true
+              }
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-20e74162-c607-4580-8cab-43fdcb56e7d2"
+      },
+      {
+        "name": "Reservation Notes",
+        "id": "bbbe40e2-f058-4fff-a7be-681607e26201",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "auth": {
+            "type": "bearer",
+            "bearer": [
+              {
+                "key": "token",
+                "value": "{{access_token}}",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "POST",
+          "header": [
+            {
+              "key": "X-Env",
+              "value": "qa",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\r\n  \"noteTransId\": 1,\r\n  \"siteId\": 37,\r\n  \"noteName\": \"Regular\",\r\n  \"parentName\": \"Owner\",\r\n  \"noteType\": \"Owner messages\",\r\n  \"defaultNote\": \"$   173.44 MORT AUTO     Pmnt Rcvd by  at 08:05:53\",\r\n  \"sourceTableId\": 135485,\r\n  \"sourceTableName\": \"Owner\",\r\n  \"dateCreated\": \"2018-11-02\",\r\n  \"timeCreated\": \"11:26:10\",\r\n  \"userName\": \"jcastro\",\r\n  \"netNote\": 0\r\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "https://apirtf.orangelake.com/hicv-agentview-exp/reservations/100000007/notes?notesSource=CRS&pageNumber=1&pageSize=1",
+            "protocol": "https",
+            "host": [
+              "apirtf",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "hicv-agentview-exp",
+              "reservations",
+              "100000007",
+              "notes"
+            ],
+            "query": [
+              {
+                "key": "notesSource",
+                "value": "CRS"
+              },
+              {
+                "key": "pageNumber",
+                "value": "1"
+              },
+              {
+                "key": "pageSize",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-bbbe40e2-f058-4fff-a7be-681607e26201"
+      }
+    ]
+  }
+}
