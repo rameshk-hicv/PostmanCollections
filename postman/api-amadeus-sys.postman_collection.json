@@ -1,0 +1,629 @@
+{
+  "collection": {
+    "info": {
+      "_postman_id": "b84c9ea0-7419-4d5a-9ca8-794ac557f4e1",
+      "name": "amadeus-sys",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+      "updatedAt": "2024-11-25T05:42:48.000Z",
+      "createdAt": "2024-11-05T06:48:14.000Z",
+      "lastUpdatedBy": "35360195",
+      "uid": "35360195-b84c9ea0-7419-4d5a-9ca8-794ac557f4e1"
+    },
+    "item": [
+      {
+        "name": "multiSingleAvailability_Cloud",
+        "id": "7c87644a-729a-4005-8265-e3b4418d58d1",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "",
+              "value": "",
+              "type": "text"
+            }
+          ],
+          "url": {
+            "raw": "https://internal-test-apis.orangelake.com/amadeus-sys-23425/multiSingleAvailability?ratePlanCode=RAC&checkinDate=2025-04-22&lengthOfStay=3&hotelCode=YOAUSC83&noOfAdults=1&reservationId=64983&roomQuantity=1",
+            "protocol": "https",
+            "host": [
+              "internal-test-apis",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "amadeus-sys-23425",
+              "multiSingleAvailability"
+            ],
+            "query": [
+              {
+                "key": "ratePlanCode",
+                "value": "RAC"
+              },
+              {
+                "key": "checkinDate",
+                "value": "2025-04-22"
+              },
+              {
+                "key": "lengthOfStay",
+                "value": "3"
+              },
+              {
+                "key": "hotelCode",
+                "value": "YOAUSC83"
+              },
+              {
+                "key": "noOfAdults",
+                "value": "1"
+              },
+              {
+                "key": "reservationId",
+                "value": "64983"
+              },
+              {
+                "key": "roomQuantity",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-7c87644a-729a-4005-8265-e3b4418d58d1"
+      },
+      {
+        "name": "MultiSingleAvailability-RTF",
+        "id": "94c858a3-16a2-4ce0-9a4b-623233dc74e8",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "Accept",
+              "value": "application/json"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Authorization",
+              "value": "Bearer eyJraWQiOiJfOUxiYkUzd1M1QjNfWmFFVDlNbkZ5cVlud0pBZlRMazI2WnlZSFZGQ0FRIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULnJ6M212bExyZjk1ZkkzMnBidk1ibFcycm9vNEZxUkJ6QnN5NS1HenI2V28iLCJpc3MiOiJodHRwczovL29yYW5nZWxha2Uub2t0YS5jb20vb2F1dGgyL2F1czYycWhtbnJ5d1lnTmR1MnA3IiwiYXVkIjoiMG9hNjJ2ZTZ4bkRlQnhqMksycDciLCJpYXQiOjE2MDM2NDQxNDYsImV4cCI6MTYwMzY0Nzc0NiwiY2lkIjoiMG9hNmYzcGs0dnU3M21sQ2cycDciLCJzY3AiOlsiQ2xpZW50X0NyZWRlbnRpYWwiXSwic3ViIjoiMG9hNmYzcGs0dnU3M21sQ2cycDcifQ.RIkLzMi15fcT4D_0RFGSRNL-1DSaVwcjxvWWTyyooNTQYLVv3-O68PoKbQmmzpLOQtV0JqAZXfGBHCc-_5IdGa_73jKzD1ukWyLGBK05IY_Wsvz1UgYT1BOoKGoySn2EiffEPsmKZ1G5rt455PNhDxV6aW-Ft1rQqNMeEVYBffS1FCVQxs5nN-lGz3jUSRQsMlVjHTx0TDEfqp6p_GOJao2WwoqnoaRTBbm7qlW6UA_Q8maxIYxhh2GRVo8B53kduq-Vf_hkOY9Czqw5wAFVbMcwYhf-hDaoKp1hsfsgC7hPLGSlJP2OhjkqVQvylDbX2fw_muLCxQX50io9A83B8A"
+            },
+            {
+              "key": "Cookie",
+              "value": "f5avraaaaaaaaaaaaaaaa_session_=LBAFAABJOEOANDMOHJPODMEFEBKINDEBDIGDIBNCBGDFPGFNNBBMJABDLLADKEEBMGKDMPGLOPHHCJCMGKEAIOBNOOHIJFNKAEOJFMLHCOMBFBALMBIFBKIMGIPBNEMA"
+            }
+          ],
+          "url": {
+            "raw": "https://apirtf.orangelake.com/amadeus-sys/multiSingleAvailability?ratePlanCode=RAC&checkinDate=2025-04-22&lengthOfStay=3&hotelCode=YOAUSC83&noOfAdults=1&reservationId=64983&roomQuantity=1",
+            "protocol": "https",
+            "host": [
+              "apirtf",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "amadeus-sys",
+              "multiSingleAvailability"
+            ],
+            "query": [
+              {
+                "key": "ratePlanCode",
+                "value": "RAC"
+              },
+              {
+                "key": "checkinDate",
+                "value": "2025-04-22"
+              },
+              {
+                "key": "lengthOfStay",
+                "value": "3"
+              },
+              {
+                "key": "hotelCode",
+                "value": "YOAUSC83"
+              },
+              {
+                "key": "noOfAdults",
+                "value": "1"
+              },
+              {
+                "key": "reservationId",
+                "value": "64983"
+              },
+              {
+                "key": "roomQuantity",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-94c858a3-16a2-4ce0-9a4b-623233dc74e8"
+      },
+      {
+        "name": "enhancedPricing_RTF",
+        "id": "12b5b098-886d-46cc-8c97-0886432fbd5d",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "X-Env",
+              "value": "qa",
+              "type": "text"
+            }
+          ],
+          "url": {
+            "raw": "https://apirtf.orangelake.com/amadeus-sys/enhancedPricing?reservationId=64983&chainCode=YO&hotelCityCode=AUS&hotelCode=YOAUSC83&checkinDate=2025-04-23&lengthOfStay=3&ratePlanCode=RAC&bookingCode=CTS57JU&roomTypeCode=*RH&roomQuantity=1&noOfAdults=1",
+            "protocol": "https",
+            "host": [
+              "apirtf",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "amadeus-sys",
+              "enhancedPricing"
+            ],
+            "query": [
+              {
+                "key": "reservationId",
+                "value": "64983"
+              },
+              {
+                "key": "chainCode",
+                "value": "YO"
+              },
+              {
+                "key": "hotelCityCode",
+                "value": "AUS"
+              },
+              {
+                "key": "hotelCode",
+                "value": "YOAUSC83"
+              },
+              {
+                "key": "checkinDate",
+                "value": "2025-04-23"
+              },
+              {
+                "key": "lengthOfStay",
+                "value": "3"
+              },
+              {
+                "key": "ratePlanCode",
+                "value": "RAC"
+              },
+              {
+                "key": "bookingCode",
+                "value": "CTS57JU"
+              },
+              {
+                "key": "roomTypeCode",
+                "value": "*RH"
+              },
+              {
+                "key": "roomQuantity",
+                "value": "1"
+              },
+              {
+                "key": "noOfAdults",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-12b5b098-886d-46cc-8c97-0886432fbd5d"
+      },
+      {
+        "name": "enhancedPricing_Cloud",
+        "id": "5d3bf57f-958d-43b6-b275-7b947d25b91b",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "X-Env",
+              "value": "qa",
+              "type": "text"
+            }
+          ],
+          "url": {
+            "raw": "https://internal-test-apis.orangelake.com/amadeus-sys-23425/enhancedPricing?reservationId=85872&chainCode=HI&hotelCityCode=MAD&hotelCode=HIMAD71A&checkinDate=2024-11-20&lengthOfStay=3&ratePlanCode=57J&bookingCode=STN57JU&roomTypeCode=RH&roomQuantity=1&noOfAdults=2",
+            "protocol": "https",
+            "host": [
+              "internal-test-apis",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "amadeus-sys-23425",
+              "enhancedPricing"
+            ],
+            "query": [
+              {
+                "key": "reservationId",
+                "value": "85872"
+              },
+              {
+                "key": "chainCode",
+                "value": "HI"
+              },
+              {
+                "key": "hotelCityCode",
+                "value": "MAD"
+              },
+              {
+                "key": "hotelCode",
+                "value": "HIMAD71A"
+              },
+              {
+                "key": "checkinDate",
+                "value": "2024-11-20"
+              },
+              {
+                "key": "lengthOfStay",
+                "value": "3"
+              },
+              {
+                "key": "ratePlanCode",
+                "value": "57J"
+              },
+              {
+                "key": "bookingCode",
+                "value": "STN57JU"
+              },
+              {
+                "key": "roomTypeCode",
+                "value": "RH"
+              },
+              {
+                "key": "roomQuantity",
+                "value": "1"
+              },
+              {
+                "key": "noOfAdults",
+                "value": "2"
+              }
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-5d3bf57f-958d-43b6-b275-7b947d25b91b"
+      },
+      {
+        "name": "PNRByReservation_RTF",
+        "id": "6f8c6cfd-e363-411e-bf37-56c7d323cee9",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "X-Env",
+              "value": "qa",
+              "type": "text"
+            },
+            {
+              "key": "Accept",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "url": {
+            "raw": "https://apirtf.orangelake.com/amadeus-sys/pnrs/333335?reservationId=1665585",
+            "protocol": "https",
+            "host": [
+              "apirtf",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "amadeus-sys",
+              "pnrs",
+              "333335"
+            ],
+            "query": [
+              {
+                "key": "reservationId",
+                "value": "1665585"
+              }
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-6f8c6cfd-e363-411e-bf37-56c7d323cee9"
+      },
+      {
+        "name": "PNRByReservation_Cloud",
+        "id": "6e4ff2ba-9f83-4ea6-9721-a20aa1ba9386",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "X-Env",
+              "value": "qa",
+              "type": "text"
+            },
+            {
+              "key": "Accept",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "url": {
+            "raw": "https://internal-test-apis.orangelake.com/amadeus-sys-23425/pnrs/2?reservationId=64983",
+            "protocol": "https",
+            "host": [
+              "internal-test-apis",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "amadeus-sys-23425",
+              "pnrs",
+              "2"
+            ],
+            "query": [
+              {
+                "key": "reservationId",
+                "value": "64983"
+              }
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-6e4ff2ba-9f83-4ea6-9721-a20aa1ba9386"
+      },
+      {
+        "name": "PNR_RTF",
+        "id": "5689f258-daa1-46fd-b098-988a03fd2b3a",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "X-Env",
+              "value": "qa",
+              "type": "text"
+            },
+            {
+              "key": "Accept",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\r\n  \"travelers\": [\r\n    {\r\n      \"referenceQualifier\": \"PT\",\r\n      \"referenceNumber\": 2,\r\n      \"firstName\": \"Test\",\r\n      \"lastName\": \"Test\",\r\n      \"email\": \"test@test.com\"\r\n    }\r\n  ]\r\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "https://apirtf.orangelake.com/amadeus-sys/pnrs?reservationId=1665585&sessionId=01MZ6CHUHN&sequenceNumber=1&securityToken=2QNN4T8I69633350VSB6M1NKFB&endWithRetrieve=False&createdBy=testuser",
+            "protocol": "https",
+            "host": [
+              "apirtf",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "amadeus-sys",
+              "pnrs"
+            ],
+            "query": [
+              {
+                "key": "reservationId",
+                "value": "1665585"
+              },
+              {
+                "key": "sessionId",
+                "value": "01MZ6CHUHN"
+              },
+              {
+                "key": "sequenceNumber",
+                "value": "1"
+              },
+              {
+                "key": "securityToken",
+                "value": "2QNN4T8I69633350VSB6M1NKFB"
+              },
+              {
+                "key": "endWithRetrieve",
+                "value": "False"
+              },
+              {
+                "key": "createdBy",
+                "value": "testuser"
+              }
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-5689f258-daa1-46fd-b098-988a03fd2b3a"
+      },
+      {
+        "name": "PNR_Cloud",
+        "id": "e42431ae-9bbb-4f70-9bbb-0cfbeb57704b",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "X-Env",
+              "value": "qa",
+              "type": "text"
+            },
+            {
+              "key": "Accept",
+              "value": "application/json",
+              "type": "text"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\r\n  \"travelers\": [\r\n    {\r\n      \"referenceQualifier\": \"PT\",\r\n      \"referenceNumber\": 2,\r\n      \"firstName\": \"Test\",\r\n      \"lastName\": \"Test\",\r\n      \"email\": \"test@test.com\"\r\n    }\r\n  ]\r\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "https://internal-test-apis.orangelake.com/amadeus-sys-23425/pnrs?reservationId=64983&sessionId=00KYWTLR4D&sequenceNumber=1&securityToken=2IFJA9OEMAR5X2LK7O4S8MVJKJ&endWithRetrieve=False&createdBy=testuser",
+            "protocol": "https",
+            "host": [
+              "internal-test-apis",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "amadeus-sys-23425",
+              "pnrs"
+            ],
+            "query": [
+              {
+                "key": "reservationId",
+                "value": "64983"
+              },
+              {
+                "key": "sessionId",
+                "value": "00KYWTLR4D"
+              },
+              {
+                "key": "sequenceNumber",
+                "value": "1"
+              },
+              {
+                "key": "securityToken",
+                "value": "2IFJA9OEMAR5X2LK7O4S8MVJKJ"
+              },
+              {
+                "key": "endWithRetrieve",
+                "value": "False"
+              },
+              {
+                "key": "createdBy",
+                "value": "testuser"
+              }
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-e42431ae-9bbb-4f70-9bbb-0cfbeb57704b"
+      },
+      {
+        "name": "New Request",
+        "id": "da2db794-b401-425e-ae33-bcedc40118c9",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "https://apirtf.orangelake.com/amadeus-sys/multiSingleAvailability?ratePlanCode=RAC&checkinDate=2025-04-22&lengthOfStay=1&hotelCode=YOAUSC83&noOfAdults=1&reservationId=1665585&roomQuantity=1",
+            "protocol": "https",
+            "host": [
+              "apirtf",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "amadeus-sys",
+              "multiSingleAvailability"
+            ],
+            "query": [
+              {
+                "key": "ratePlanCode",
+                "value": "RAC"
+              },
+              {
+                "key": "checkinDate",
+                "value": "2025-04-22"
+              },
+              {
+                "key": "lengthOfStay",
+                "value": "1"
+              },
+              {
+                "key": "hotelCode",
+                "value": "YOAUSC83"
+              },
+              {
+                "key": "noOfAdults",
+                "value": "1"
+              },
+              {
+                "key": "reservationId",
+                "value": "1665585"
+              },
+              {
+                "key": "roomQuantity",
+                "value": "1"
+              }
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-da2db794-b401-425e-ae33-bcedc40118c9"
+      },
+      {
+        "name": "New Request",
+        "id": "2b732131-32a3-4208-8f6d-d086d38a7ff5",
+        "protocolProfileBehavior": {
+          "disableBodyPruning": true
+        },
+        "request": {
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\r\n  \"sessionId\": \"01N24W62GK\",\r\n  \"sequenceNumber\": 4,\r\n  \"securityToken\": \"3S4PT8EE3NTK436ABF5PUCCCZH\",\r\n  \"hotelCode\": \"71A\",\r\n  \"chainCode\": \"HI\",\r\n  \"cityCode\": \"MAD\",\r\n  \"ccNumber\": \"4911830000000000\",\r\n  \"securityCode\": \"555\",\r\n  \"expirationDate\": \"1020\",\r\n  \"ccType\": \"VI\",\r\n  \"occupantTattoo\": 3,\r\n  \"reservationId\": 64983,\r\n  \"roomStays\": [\r\n    {\r\n      \"bookingCode\": \"ST23SFG\",\r\n      \"noOfUnits\": 2\r\n    },\r\n    {\r\n      \"bookingCode\": \"FSE5YHH\",\r\n      \"noOfUnits\": 1\r\n    }\r\n  ]\r\n}",
+            "options": {
+              "raw": {
+                "language": "json"
+              }
+            }
+          },
+          "url": {
+            "raw": "https://apirtf.orangelake.com/amadeus-sys/hotelSell",
+            "protocol": "https",
+            "host": [
+              "apirtf",
+              "orangelake",
+              "com"
+            ],
+            "path": [
+              "amadeus-sys",
+              "hotelSell"
+            ]
+          }
+        },
+        "response": [],
+        "uid": "35360195-2b732131-32a3-4208-8f6d-d086d38a7ff5"
+      }
+    ]
+  }
+}
